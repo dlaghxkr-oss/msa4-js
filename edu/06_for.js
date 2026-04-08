@@ -31,17 +31,17 @@
 // 구구단 2단
 // let(i=2)
 
-// for(let i = 2; i <= 18; i++) {
-//   console.log(`2 X ${i} = ${z}`)
-// }
-
-let startDan = 2;
-for (startDan; startDan <= 19; startDan++) {
-  console.log(`** ${startDan}단 **`);
-  for (let i = 1; i <= 19; i++) {
-    console.log(`${startDan} X ${i} = ${startDan * j}`);
-  }
+for(let i = 2; i <= 18; i++) {
+  console.log(`2 X ${i} = ${z}`)
 }
+
+// let startDan = 2;
+// for (startDan; startDan <= 19; startDan++) {
+//   console.log(`** ${startDan}단 **`);
+//   for (let i = 1; i <= 19; i++) {
+//     console.log(`${startDan} X ${i} = ${startDan * j}`);
+//   }
+// }
 
 // for (i = 1; i < 11; i + ) {
 //   console.log(`${i}`);

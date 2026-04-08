@@ -1,36 +1,36 @@
-// 1번 문제
-for (let i = 0; i < 5; i++) {
-  let star ="";
-  for (let z = 0; z < 5; z++) {
-    star += "*";
-  }
-  console.log(star);
-}
+// // // 1번 문제
+// for (let i = 0; i < 5; i++) {
+//   let star ="";
+//   for (let z = 0; z < 5; z++) {
+//     star += "*";
+//   }
+//   console.log(star);
+// }
 
-// 2번 문제
-for (let i = 0; i < 5; i++) {
-  let star = "";
-  for (let z = 0; z <= i; z++) {
-    star += "*";
-  }
-  console.log(star);
-}
+// // 2번 문제
+// for (let i = 0; i < 5; i++) {
+//   let star = "";
+//   for (let z = 0; z <= i; z++) {
+//     star += "*";
+//   }
+//   console.log(star);
+// }
 
-// 3번 문제
+// // 3번 문제
 
-for(let i = 0; i < 5; 1++) {
-  let space = '';
-  for(let z = 4; z > i; z--) {
-    space += ' ';
-  }
-  console.log(space);
+// for(let i = 0; i < 5; 1++) {
+//   let space = '';
+//   for(let z = 4; z > i; z--) {
+//     space += ' ';
+//   }
+//   console.log(space);
 
-  let star = '';
-    for(let y = 0; y <= i; y++){
-      star +='*';
-  }
-  console.log(`${space}${star}`);
-}
+//   let star = '';
+//     for(let y = 0; y <= i; y++){
+//       star +='*';
+//   }
+//   console.log(`${space}${star}`);
+// }
 
 // let g = "";
 // for (let i = 1; i <= 5; i++) {
@@ -41,4 +41,20 @@ for(let i = 0; i < 5; 1++) {
 // let g = "";
 // for (let ) {
 
+// }
+
+
+// for(let i = 1; i < 6; i++) {
+//   let z = ""
+//   for(let j=1; j < 6; j++) {
+//     z += "*"
+//   }
+//   console.log(z)
+// }
+
+// for(let i = 1; i < 6; i++) {
+//   let z = ""
+//   for(let z = i) {
+
+//   }
 // }
