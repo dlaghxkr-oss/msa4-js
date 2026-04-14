@@ -13,6 +13,6 @@ const text = document.querySelector('#text');
 text.addEventListener('click', () => {
   if (text.style.opacity === 0) {
     text.style.opacity ='1';
-
+    
   }
 })
