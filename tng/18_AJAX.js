@@ -2,7 +2,7 @@ const url = 'https://picsum.photos/v2/list?page=4&limit=10';
 
 const form = document.querySelector('form');
 form.addEventListener('submit',(e) => {
-  e.preventDefault(); // 기존 이벤트 취소
+  e.preventDefault(); // 기존 이벤트 취소c
 
   const baseUrl ='https://picsum.photos/v2/list';
   const page = form.page.value;
@@ -65,6 +65,8 @@ btnSearch.addEventListener('click', () => {
   
 });
 
+
+// 68부터 하단까지 주석처리 
 // const url = 'https://picsum.photos/v2/list?page=2&limit=10';
 
 // const btnSearch = document.querySelector('#btnSearch');
